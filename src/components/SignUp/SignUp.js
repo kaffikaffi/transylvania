@@ -1,4 +1,6 @@
 import React from "react";
 
-const SignUp = () => {};
+const SignUp = () => {
+  return <div></div>;
+};
 export default SignUp;

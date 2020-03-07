@@ -1,4 +1,6 @@
 import React from "react";
 
-const PasswordForget = () => {};
+const PasswordForget = () => {
+  return <div></div>;
+};
 export default PasswordForget;

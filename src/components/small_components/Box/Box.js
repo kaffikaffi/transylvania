@@ -1,17 +1,20 @@
 import React from "react";
-import colors from "../../../style/colors";
+import colors from "../../../style/colors.js";
 import styled from "styled-components";
 
-const box_style = styled.section`
+const StyledBox = styled.div`
   background-color: ${colors.pink};
-  width: 10rem;
-  height: 10rem;
+  border: solid ${colors.purple};
+  width: 20rem;
+  height: 20rem;
+  color: #ffff;
 `;
+
 const Box = ({ name }) => {
   return (
-    <section className={box_style}>
+    <StyledBox>
       <h1>{name}</h1>
-    </section>
+    </StyledBox>
   );
 };
 

@@ -6,7 +6,7 @@ class AdminPage extends Component {
     super(props);
     this.state = {
       loading: false,
-      users: []
+      users: ["borge.dreyer@gmail.com"]
     };
   }
   componentDidMount() {

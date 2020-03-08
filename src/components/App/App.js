@@ -14,6 +14,8 @@ import { withFirebase } from "../Firebase";
 import { AuthUserContext } from "../Session/Session";
 import { withAuthentication } from "../Session/Session";
 
+import {Button} from "../small_components/Button/Button";
+
 const App = () => {
   return (
     <div className="App">
@@ -30,6 +32,7 @@ const App = () => {
           <Route path={ROUTES.ADMIN} component={AdminPage} />
         </div>
       </Router>
+      <Button>Click Me!</Button>
       <h1 className="main-header">Main Lads</h1>
     </div>
   );

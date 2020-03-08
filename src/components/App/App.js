@@ -10,6 +10,9 @@ import HomePage from "../Home/Home";
 import AccountPage from "../Account/Account";
 import AdminPage from "../Admin/Admin";
 import * as ROUTES from "../../constants/routes";
+import { withFirebase } from "../Firebase";
+import { AuthUserContext } from "../Session/Session";
+import { withAuthentication } from "../Session/Session";
 
 const App = () => {
   return (
@@ -31,4 +34,4 @@ const App = () => {
     </div>
   );
 };
-export default App;
+export default withAuthentication(App);

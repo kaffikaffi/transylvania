@@ -1,6 +1,6 @@
 import React from "react";
 import colors from "../../../style/colors";
-import styled from "syled-components";
+import styled from "styled-components";
 
 const box_style = styled.section`
   background-color: ${colors.pink};

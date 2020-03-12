@@ -12,9 +12,11 @@ const StyledBox = styled.div`
 
 const Box = ({ name }) => {
   return (
-    <StyledBox>
-      <h1>{name}</h1>
-    </StyledBox>
+    <div>
+      <StyledBox>
+        <h1>{name}</h1>
+      </StyledBox>
+    </div>
   );
 };
 
